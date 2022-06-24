@@ -98,7 +98,7 @@ body {
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #2217a3, #ffda44);
+  background: -webkit-linear-gradient(left, #2217a3, #c7a10a);
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 input[type="radio"] {
@@ -191,9 +191,9 @@ form .btn .btn-layer {
   left: -100%;
   background: -webkit-linear-gradient(
     right,
-    #ffda44,
+    #c7a10a,
     #2217a3,
-    #ffda44,
+    #c7a10a,
     #2217a3
   );
   border-radius: 5px;
