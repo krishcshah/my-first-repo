@@ -69,8 +69,6 @@ var canvasShape = function (block_id, params) {
     .getElementById(block_id)
     .setAttribute("style", "position: absolute; left: 0; right: 0;");
 
-  //Helper function to get a random color - but not too dark
-
   function GetRandomColor() {
     if (typeof params.color === "string") {
       var r = color1;
@@ -192,12 +190,10 @@ var canvasShape = function (block_id, params) {
   };
 };
 
-// // Customization
+// Customization
 canvasShape("canvas-shapes", {
-  size: 6, // Change Elements Size
-  speed: 5, // Change Elements Speed
-  number_of_item: 600, // Max Limit Of Iteam 250
-  shape: "img", //You Can Change With "circle" , "square" , "triangle", "hexa"
-  // color: '#008000',  // Change Elements Color
-  // image: "http://petitrocher.camp-atlantique.com/sites/default/files/styles/icone_titre_home_25_25/public/icone_smile_soleil_134.png",
+  size: 6,
+  speed: 5,
+  number_of_item: 600,
+  shape: "img",
 });
